@@ -22,7 +22,7 @@
     <!-- Favicon -->
     <!-- <link rel="icon" href="assets/images/favicon.png" type="image/png"> -->
 </head>
-<body data-bs-theme="dark" class="ethereal-body">
+<body data-bs-theme="dark" class="digital-ethereal-body">
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-lg">
@@ -38,7 +38,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#hero">Get NQRL</a></li>
                     <li class="nav-item"><a class="nav-link" href="#why-nqrl">Why NQRL?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#nqr-vision">The NQR Vision</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#nqr-vision">NQR Vision</a></li>
                     <li class="nav-item"><a class="nav-link" href="#nqr-tokenomics">NQR Tokenomics</a></li>
                     <li class="nav-item"><a class="nav-link" href="#token-swap">The Swap</a></li>
                     <li class="nav-item"><a class="nav-link" href="#calculator">Value Explorer</a></li>
@@ -50,16 +50,16 @@
         </div>
     </nav>
 
-    <!-- Hero Section - EMPHASIZE NQRL -->
+    <!-- Hero Section -->
     <section id="hero" class="hero-section d-flex align-items-center text-center text-white">
-        <div id="particles-js"></div> <!-- For particle effects -->
-        <div class="container hero-content-container fade-in-section">
+        <div id="particles-js-hero"></div> <!-- Hero-specific particles -->
+        <div class="container hero-content-container animated-item" data-animation="fade-in-up">
             <img src="assets/images/ae91f48a-4b62-4340-8726-da0e580167dc.png" alt="Neuroqor Logo" class="hero-logo mb-4" id="heroLogo">
-            <h1 class="display-1 fw-bolder mb-3 text-glow">Neuroqor (NQR)</h1>
+            <h1 class="display-1 fw-bolder mb-3 text-glow-main">Neuroqor (NQR)</h1>
             <p class="lead fs-2 mb-4 hero-subtitle">Exclusive Pre-Sale Access via <span class="highlight-pumpfun">NQRL</span> on Pump.fun!</p>
             
             <div class="alert alert-pumpfun p-3 my-4 shadow-lg mx-auto" style="max-width: 750px;" role="alert">
-                <h4 class="alert-heading fw-bold"><i class="fas fa-fire-alt me-2"></i>THE ONLY PRE-SALE IS LIVE NOW!</h4>
+                <h4 class="alert-heading fw-bold"><i class="fas fa-fire-alt me-2"></i>THE ONLY PRE-SALE IS LIVE!</h4>
                 <p class="fs-5 mb-2">Acquire **NQRL** on <a href="https://pump.fun/98KWyyah12Mksu8hoN6scZ6TK25vzUajjbbvjm2bpump" target="_blank" class="fw-bold pumpfun-link-inline">Pump.fun</a> – Your <strong class="text-decoration-underline">sole opportunity</strong> to secure future Neuroqor (NQR) utility tokens at an unparalleled early-supporter rate!</p>
                 <p class="mb-0 fs-5">All NQRL holders participate in the <strong class="highlight-text">one-time swap event</strong> for NQR in Sept 2025.</p>
             </div>
@@ -73,75 +73,75 @@
             
             <div class="mt-4 holder-progress-section">
                 <h3 class="fw-semibold">Join the <span class="highlight-pumpfun">NQRL</span> Vanguard!</h3>
-                <p class="fs-5 text-white-75">Our Vision: 1,000,000 NQRL Holders Building the Neuroqor Future!</p>
+                <p class="fs-5 text-white-75">Vision: 1,000,000 NQRL Holders Building the Neuroqor Future!</p>
                 <div class="progress mx-auto" style="height: 25px; max-width: 500px;">
                     <div id="holderPercentageProgress" class="progress-bar progress-bar-striped progress-bar-animated bg-pumpfun text-dark fw-bold fs-6" role="progressbar" style="width: 0.025%;" aria-valuenow="0.025" aria-valuemin="0" aria-valuemax="100">0.025%</div>
                 </div>
-                <!--p class="mt-2 small text-white-75">Current NQRL Holders: <span id="currentHolderCount" class="fw-bold">250</span> (Example - Update Manually/API)</p>
+                <p class="mt-2 small text-white-75">Current NQRL Holders: <span id="currentHolderCount" class="fw-bold">250</span></p>
             </div>
         </div>
     </section>
 
     <!-- Why NQRL on Pump.fun Section -->
     <section id="why-nqrl" class="py-5 bg-darker section-animated">
-        <div class="container fade-in-section">
+        <div class="container animated-item" data-animation="fade-in-up" data-delay="0.2s">
             <div class="text-center mb-5">
-                <h2 class="display-4 fw-bold highlight-text-ethereal">Why Start with NQRL on Pump.fun?</h2>
-                <p class="lead text-white-75 fs-5">Our Commitment to a Fair, Transparent & Community-Driven Launch.</p>
+                <h2 class="display-4 fw-bold highlight-text-ethereal">Why NQRL on Pump.fun?</h2>
+                <p class="lead text-white-75 fs-5">Our Fair, Transparent & Community-Driven Launch Strategy.</p>
             </div>
             <div class="row g-4 align-items-stretch">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 animated-item" data-animation="fade-in-left" data-delay="0.3s">
                     <div class="card info-card h-100 p-3">
                         <div class="card-body text-center">
                             <div class="info-icon mb-3"><i class="fas fa-users fa-3x"></i></div>
                             <h4 class="card-title">Fair Access for All</h4>
-                            <p>Pump.fun ensures everyone has an equal chance from day one. No private sales, no VC pre-allocations – just a level playing field.</p>
+                            <p>Pump.fun ensures equal opportunity. No private sales, no VC pre-allocations – a level playing field for our community.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 animated-item" data-animation="fade-in-up" data-delay="0.4s">
                     <div class="card info-card h-100 p-3">
                         <div class="card-body text-center">
                             <div class="info-icon mb-3"><i class="fas fa-comments fa-3x"></i></div>
-                            <h4 class="card-title">Community Building</h4>
-                            <p>This NQRL phase is dedicated to building a passionate, engaged core community. Your early support is foundational to Neuroqor's success.</p>
+                            <h4 class="card-title">Community First</h4>
+                            <p>This NQRL phase is dedicated to building a passionate, engaged core community. Your early support is foundational.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 animated-item" data-animation="fade-in-right" data-delay="0.5s">
                     <div class="card info-card h-100 p-3">
                         <div class="card-body text-center">
                             <div class="info-icon mb-3"><i class="fas fa-chart-line fa-3x"></i></div>
                             <h4 class="card-title">Organic Growth</h4>
-                            <p>Pump.fun facilitates natural price discovery and provides instant liquidity on Raydium once the bonding curve target is met.</p>
+                            <p>Pump.fun facilitates natural price discovery and provides instant liquidity on Raydium once the bonding curve fills.</p>
                         </div>
                     </div>
                 </div>
             </div>
-             <p class="text-center mt-5 fs-5 text-white-75">NQRL is your exclusive ticket to be part of the Neuroqor story from its very inception, ensuring you are positioned for the future NQR utility token at the most advantageous terms.</p>
+             <p class="text-center mt-5 fs-5 text-white-75 animated-item" data-animation="fade-in-up" data-delay="0.6s">NQRL is your exclusive gateway to the Neuroqor story, securing your future NQR tokens at the most advantageous position.</p>
         </div>
     </section>
 
     <!-- The NQR Vision Section -->
     <section id="nqr-vision" class="py-5 section-ethereal section-animated">
-         <div class="container fade-in-section">
+         <div class="container animated-item" data-animation="fade-in-up">
             <div class="text-center mb-5">
                 <h2 class="display-4 fw-bold highlight-text-ethereal">The NQR Vision: Intelligent Utility</h2>
-                <p class="lead text-white-75 fs-5">NQR, the token your NQRL will become, is engineered for transformative real-world applications.</p>
+                <p class="lead text-white-75 fs-5">NQR, the token your NQRL becomes, is engineered for transformative real-world applications.</p>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-7">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-7 animated-item" data-animation="fade-in-left" data-delay="0.2s">
                     <h3 class="fw-semibold mb-3"><i class="fas fa-atom me-2 text-primary"></i>NQR: Fueling the AI & Quantum Frontier</h3>
-                    <p class="fs-5 lh-base">Neuroqor (NQR) is destined to be the lifeblood of a decentralized ecosystem on Solana, merging the power of Artificial Intelligence with the potential of Quantum Computing. As the core utility token, NQR will provide:</p>
+                    <p class="fs-5 lh-base">Neuroqor (NQR) is destined to be the lifeblood of a decentralized ecosystem on Solana, merging Artificial Intelligence with Quantum Computing. As the core utility token, NQR will provide:</p>
                     <ul class="list-styled fs-5 lh-base mt-3">
                         <li><strong>Access to Compute:</strong> Utilize NQR for AI model processing and future quantum computation tasks.</li>
                         <li><strong>DAO Governance:</strong> NQR holders will steer the Neuroqor platform's evolution.</li>
                         <li><strong>Staking Rewards:</strong> Secure the network and earn yield by staking NQR (post-launch).</li>
                         <li><strong>Exclusive Features:</strong> Unlock premium AI tools and priority access within the ecosystem.</li>
                     </ul>
-                    <p class="fs-5 lh-base mt-2">Developed by <strong class="highlight-text">Pillow Gold Developers LLC</strong>, NQR is designed as an "Intelligent Utility Token" with adaptive tokenomics to ensure sustainable growth and increasing value as the platform expands.</p>
+                    <p class="fs-5 lh-base mt-2">Developed by <strong class="highlight-text">Pillow Gold Developers LLC</strong>, NQR is designed as an "Intelligent Utility Token" with adaptive tokenomics for sustainable growth.</p>
                 </div>
-                <div class="col-lg-5 text-center align-self-center">
+                <div class="col-lg-5 text-center align-self-center animated-item" data-animation="fade-in-right" data-delay="0.4s">
                      <img src="assets/images/ae91f48a-4b62-4340-8726-da0e580167dc.png" alt="NQR Token Vision" class="img-fluid rounded nqr-vision-logo">
                      <p class="mt-2 highlight-text-ethereal fs-4 fw-bold">This is NQR – The Future is Intelligent.</p>
                 </div>
@@ -149,67 +149,66 @@
         </div>
     </section>
     
-    <!-- NQR Tokenomics Section (Simplified for now, focus on NQR's future) -->
+    <!-- NQR Tokenomics Section -->
     <section id="nqr-tokenomics" class="py-5 bg-darker section-animated">
-        <div class="container fade-in-section">
+        <div class="container animated-item" data-animation="fade-in-up">
             <div class="text-center mb-5">
                 <h2 class="display-4 fw-bold highlight-text-ethereal">NQR: Engineered for Value</h2>
-                <p class="lead text-white-75 fs-5">The core principles behind the future NQR utility token.</p>
+                <p class="lead text-white-75 fs-5">Core principles of the future NQR utility token (post-swap).</p>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-10">
-                    <div class="card data-card p-4">
+                    <div class="card data-card p-4 animated-item" data-animation="zoom-in" data-delay="0.2s">
                         <div class="row g-4">
                             <div class="col-md-6">
-                                <h4 class="fw-semibold mb-3"><i class="fas fa-cogs me-2 text-primary"></i>Core NQR Metrics (Post-Swap)</h4>
+                                <h4 class="fw-semibold mb-3"><i class="fas fa-cogs me-2 text-primary"></i>Key NQR Metrics (Post-Swap)</h4>
                                 <ul class="list-group list-group-flush token-metrics-list-simple">
                                     <li class="list-group-item"><strong>Total Supply (NQR):</strong> 10,000,000 NQR</li>
                                     <li class="list-group-item"><strong>Network:</strong> Solana (SPL Token)</li>
-                                    <li class="list-group-item"><strong>NQR Mint Address:</strong> <code>7Ypo...JCL</code> (Activates Sept 2025)</li>
+                                    <li class="list-group-item"><strong>NQR Mint Address:</strong> <code>7YpoRecw3MmpA1i3fy8qEqeBE5skG6nq5aBygr3voJCL</code></li>
+                                    <li class="list-group-item"><strong>Decimals:</strong> 9</li>
                                 </ul>
                             </div>
                             <div class="col-md-6">
-                                <h4 class="fw-semibold mb-3"><i class="fas fa-fire-alt me-2 text-primary"></i>Value Accrual Mechanisms</h4>
+                                <h4 class="fw-semibold mb-3"><i class="fas fa-fire-alt me-2 text-primary"></i>Value Accrual & Deflation</h4>
                                  <ul class="list-styled">
-                                    <li><strong>Utility Demand:</strong> NQR required for all platform services.</li>
-                                    <li><strong>Deflationary Burns:</strong> Portion of platform fees burned.</li>
-                                    <li><strong>Staking Incentives:</strong> Rewards for network participation.</li>
-                                    <li><strong>DAO Treasury Growth:</strong> For ecosystem development.</li>
+                                    <li><strong>Utility-Driven Demand:</strong> NQR required for all platform services creates organic demand.</li>
+                                    <li><strong>Deflationary Burns:</strong> A portion of platform transaction fees will be permanently burned, reducing supply.</li>
+                                    <li><strong>Staking Incentives:</strong> Rewards for NQR stakers, encouraging long-term holding.</li>
+                                    <li><strong>DAO Treasury:</strong> Funds allocated for ecosystem growth, buybacks, or further burns as decided by governance.</li>
                                 </ul>
                             </div>
                         </div>
-                        <p class="mt-4 text-center text-white-75 small">A detailed NQR whitepaper (v2.0) outlining full token distribution, vesting, and governance will be released prior to the September 2025 swap event. The current NQRL phase on Pump.fun is your entry point.</p>
+                         <p class="mt-4 text-center text-white-75 small">A comprehensive NQR whitepaper (v2.0) detailing full distribution, vesting, and governance models will be released prior to the September 2025 swap event. The current NQRL phase on Pump.fun is your exclusive entry point.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Token Swap Section (Updated Messaging) -->
+    <!-- Token Swap Section -->
     <section id="token-swap" class="py-5 section-ethereal section-animated">
-        <div class="container fade-in-section">
+        <div class="container animated-item" data-animation="fade-in-up">
             <div class="text-center mb-5">
                 <h2 class="display-4 fw-bold highlight-text-ethereal">The NQRL <i class="fas fa-exchange-alt mx-2"></i> NQR Swap</h2>
                 <p class="lead text-white-75 fs-5">Your NQRL is Your Exclusive Ticket: The September 2025 Event.</p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-9">
-                    <div class="card data-card p-4 p-lg-5 text-center shadow-lg">
+                    <div class="card data-card p-4 p-lg-5 text-center shadow-lg animated-item" data-animation="zoom-in" data-delay="0.2s">
                         <i class="fas fa-sync-alt fa-4x text-primary mb-4 anim-rotate"></i>
                         <h3 class="fw-semibold mb-3">ONE-TIME SWAP EVENT: SEPTEMBER 2025</h3>
-                        <p class="fs-5 lh-base">All NQRL tokens (Pump.fun contract: <code>98K...pump</code>) acquired during this exclusive pre-sale phase will be eligible for a **one-time swap** for the official Neuroqor (NQR) utility tokens.</p>
+                        <p class="fs-5 lh-base">All NQRL tokens (Pump.fun contract: <code>98K...pump</code>) acquired during this exclusive pre-sale phase will be eligible for a **one-time swap** for official Neuroqor (NQR) utility tokens.</p>
                         
                         <div class="alert alert-warning my-4 p-3">
                             <h4 class="alert-heading fw-bold"><i class="fas fa-info-circle me-2"></i>Critical Swap Information:</h4>
                             <ul class="list-unstyled mb-0 text-start small">
-                                <li class="mb-2"><i class="fas fa-star me-2 text-warning"></i><strong>Advantageous Rate for NQRL Holders:</strong> The swap will be structured to provide the most favorable conversion terms for our earliest NQRL supporters. The final rate will consider factors like total NQRL supply to ensure fairness and reward early belief. It is not a predetermined fixed 1:1 ratio.</li>
-                                <li class="mb-2"><i class="fas fa-calendar-times me-2 text-warning"></i><strong>Limited Swap Window:</strong> This swap will occur during a specific, announced period in September 2025. **Once this window closes, NQRL tokens cannot be swapped for NQR.**</li>
-                                <li><i class="fas fa-shield-alt me-2 text-warning"></i><strong>Secure & Audited Portal:</strong> A dedicated, secure, and independently audited swap portal will be provided for a smooth process.</li>
+                                <li class="mb-2"><i class="fas fa-star me-2 text-warning"></i><strong>Advantageous Rate for NQRL Holders:</strong> The swap will provide the most favorable conversion terms for early NQRL supporters. The exact rate will depend on factors like total NQRL supply at swap time to ensure fairness and reward early belief. <strong class="text-danger">It is NOT a predetermined fixed 1:1 ratio.</strong></li>
+                                <li class="mb-2"><i class="fas fa-calendar-times me-2 text-warning"></i><strong>Limited Swap Window:</strong> This is a one-time event in September 2025. **Once this window closes, NQRL tokens CANNOT be swapped for NQR.**</li>
+                                <li><i class="fas fa-shield-alt me-2 text-warning"></i><strong>Secure & Audited Portal:</strong> A dedicated, secure, and independently audited swap portal will be provided.</li>
                             </ul>
                         </div>
-
-                        <p class="fs-5 lh-base">Holding NQRL via Pump.fun is the **sole method** to participate in this pre-launch phase and secure eligibility for NQR tokens before they are publicly available on exchanges. After the swap, NQR will power the ecosystem, while NQRL's role as an access token concludes.</p>
-                        <p class="mt-3 fw-semibold">Comprehensive details on swap mechanics will be released well in advance of September 2025.</p>
+                        <p class="fs-5 lh-base">Holding NQRL is the **sole method** to participate in this pre-launch phase. After the swap, NQR powers the ecosystem; NQRL's role as an access token concludes.</p>
                     </div>
                 </div>
             </div>
@@ -218,17 +217,17 @@
 
     <!-- Conceptual Future Value Calculator -->
     <section id="calculator" class="py-5 bg-darker section-animated">
-        <div class="container fade-in-section">
+        <div class="container animated-item" data-animation="fade-in-up">
             <div class="text-center mb-5">
                 <h2 class="display-4 fw-bold highlight-text-ethereal">NQR: Conceptual Value Explorer</h2>
                 <p class="lead text-white-75 fs-5">Illustrative scenarios for your NQR (post-swap from NQRL).</p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="card data-card p-4 p-lg-5 shadow-lg">
+                    <div class="card data-card p-4 p-lg-5 shadow-lg animated-item" data-animation="zoom-in" data-delay="0.2s">
                         <h4 class="text-center mb-3 fw-semibold"><i class="fas fa-calculator me-2 text-primary"></i>NQR Potential Value Illustration</h4>
                         <div class="mb-3">
-                            <label for="nqrlAmountInput" class="form-label">Enter NQRL Amount (Your Future NQR):</label>
+                            <label for="nqrlAmountInput" class="form-label">Enter NQRL Amount (Your Future NQR Basis):</label>
                             <input type="number" class="form-control form-control-lg" id="nqrlAmountInput" placeholder="e.g., 100000" min="1">
                         </div>
                         <p class="small text-center text-white-50 mb-3">Illustrative future NQR prices (post Sept 2025 launch & swap):</p>
@@ -249,7 +248,7 @@
                         <button class="btn btn-primary w-100 mb-3 btn-glow" id="calculateFutureValueBtn">Illustrate Potential</button>
                         
                         <div id="calculationResult" class="mt-3 text-center" style="display: none;">
-                            <p class="fs-5">With <strong id="displayNqrlAmount"></strong> NQRL (becoming NQR):</p>
+                            <p class="fs-5">Based on <strong id="displayNqrlAmount"></strong> NQRL (as basis for future NQR):</p>
                             <div class="row g-2">
                                 <div class="col-md-4"><p class="mb-1 small">At $<span id="price1Display"></span>/NQR: <strong class="highlight-text fs-4">$<span id="value1Display"></span></strong></p></div>
                                 <div class="col-md-4"><p class="mb-1 small">At $<span id="price2Display"></span>/NQR: <strong class="highlight-text fs-4">$<span id="value2Display"></span></strong></p></div>
@@ -257,7 +256,7 @@
                             </div>
                         </div>
                         <p class="small text-white-50 mt-4 text-center fst-italic">
-                            <i class="fas fa-exclamation-triangle me-1 text-warning"></i><strong>Strictly Illustrative:</strong> This tool is for conceptual demonstration only. It does NOT guarantee or predict future NQR prices. Cryptocurrency values are highly volatile and subject to significant risks. NQR's future value depends on successful project development, market adoption, and overall crypto market conditions. Do Your Own Research (DYOR).
+                            <i class="fas fa-exclamation-triangle me-1 text-warning"></i><strong>Strictly Illustrative:</strong> This tool is for conceptual demonstration only. It does NOT guarantee or predict future NQR prices or specific swap rates. Cryptocurrency values are highly volatile. NQR's future value depends on successful project development, market adoption, and overall crypto market conditions. DYOR.
                         </p>
                     </div>
                 </div>
@@ -265,62 +264,61 @@
         </div>
     </section>
 
-    <!-- Roadmap Section (Remains Largely Similar) -->
+    <!-- Roadmap Section -->
     <section id="roadmap" class="py-5 section-ethereal section-animated">
-        <div class="container fade-in-section">
+        <div class="container animated-item" data-animation="fade-in-up">
             <div class="text-center mb-5">
                 <h2 class="display-4 fw-bold highlight-text-ethereal">Our Strategic Journey</h2>
                 <p class="lead text-white-75 fs-5">Key Milestones from NQRL Pre-Sale to NQR Ecosystem Launch.</p>
             </div>
             <div class="roadmap-timeline">
-                <div class="timeline-item"><div class="timeline-icon"><i class="fas fa-fire"></i></div><div class="timeline-content card"><div class="card-header bg-pumpfun text-white fw-bold">Phase 1: NQRL Community Pre-Sale (NOW!)</div><div class="card-body"><ul class="list-unstyled"><li><i class="fas fa-check-circle text-success me-2"></i>NQRL Launch on Pump.fun</li><li><i class="fas fa-users text-info me-2"></i>NQRL Holder Growth & Community Building</li><li><i class="fas fa-bullhorn text-info me-2"></i>Marketing for NQRL Pre-Sale</li></ul></div></div></div>
-                <div class="timeline-item"><div class="timeline-icon"><i class="fas fa-cogs"></i></div><div class="timeline-content card"><div class="card-header bg-info text-white fw-bold">Phase 2: NQR Foundation (Q1-Q2 2025)</div><div class="card-body"><ul class="list-unstyled"><li><i class="far fa-circle text-muted me-2"></i>NQR Token Contract Finalization & Audits</li><li><i class="far fa-circle text-muted me-2"></i>NQRL-to-NQR Swap Portal Development</li><li><i class="far fa-circle text-muted me-2"></i>Neuroqor Platform Core Architecture</li><li><i class="far fa-circle text-muted me-2"></i>NQR Whitepaper v2.0 Release</li></ul></div></div></div>
-                <div class="timeline-item"><div class="timeline-icon highlight-milestone-icon"><i class="fas fa-rocket"></i></div><div class="timeline-content card border-success"><div class="card-header bg-success text-white fw-bold">Phase 3: NQR Launch (TARGET: SEPT 2025)</div><div class="card-body"><ul class="list-unstyled"><li><strong class="highlight-text"><i class="fas fa-exchange-alt me-2"></i>One-Time NQRL to NQR Swap Event</strong></li><li><strong class="highlight-text"><i class="fas fa-lock me-2"></i>NQR Liquidity Pool on DEX(s)</strong></li><li><i class="far fa-circle text-muted me-2"></i>Neuroqor Platform v1.0 Launch</li><li><i class="far fa-circle text-muted me-2"></i>NQR Staking Activation</li></ul></div></div></div>
-                <div class="timeline-item"><div class="timeline-icon"><i class="fas fa-chart-line"></i></div><div class="timeline-content card"><div class="card-header bg-purple text-white fw-bold">Phase 4: NQR Ecosystem Growth (Q4 2025+)</div><div class="card-body"><ul class="list-unstyled"><li><i class="far fa-circle text-muted me-2"></i>Advanced Platform Features</li><li><i class="far fa-circle text-muted me-2"></i>Developer SDK & Grant Program</li><li><i class="far fa-circle text-muted me-2"></i>NQR DAO Governance Transition</li></ul></div></div></div>
+                <div class="timeline-item animated-item" data-animation="slide-in-left"><div class="timeline-icon"><i class="fas fa-fire"></i></div><div class="timeline-content card"><div class="card-header bg-pumpfun text-white fw-bold">Phase 1: NQRL Community Pre-Sale (NOW!)</div><div class="card-body"><ul class="list-unstyled"><li><i class="fas fa-check-circle text-success me-2"></i>NQRL Launch on Pump.fun</li><li><i class="fas fa-users text-info me-2"></i>NQRL Holder Growth & Community Building</li><li><i class="fas fa-bullhorn text-info me-2"></i>Marketing for NQRL Pre-Sale</li></ul></div></div></div>
+                <div class="timeline-item animated-item" data-animation="slide-in-right"><div class="timeline-icon"><i class="fas fa-cogs"></i></div><div class="timeline-content card"><div class="card-header bg-info text-white fw-bold">Phase 2: NQR Foundation (Q1-Q2 2025)</div><div class="card-body"><ul class="list-unstyled"><li><i class="far fa-circle text-muted me-2"></i>NQR Token Contract Finalization & Audits</li><li><i class="far fa-circle text-muted me-2"></i>NQRL-to-NQR Swap Portal Development</li><li><i class="far fa-circle text-muted me-2"></i>Neuroqor Platform Core Architecture</li><li><i class="far fa-circle text-muted me-2"></i>NQR Whitepaper v2.0 Release</li></ul></div></div></div>
+                <div class="timeline-item animated-item" data-animation="slide-in-left"><div class="timeline-icon highlight-milestone-icon"><i class="fas fa-rocket"></i></div><div class="timeline-content card border-success"><div class="card-header bg-success text-white fw-bold">Phase 3: NQR Launch (TARGET: SEPT 2025)</div><div class="card-body"><ul class="list-unstyled"><li><strong class="highlight-text"><i class="fas fa-exchange-alt me-2"></i>One-Time NQRL to NQR Swap Event</strong></li><li><strong class="highlight-text"><i class="fas fa-lock me-2"></i>NQR Liquidity Pool on DEX(s)</strong></li><li><i class="far fa-circle text-muted me-2"></i>Neuroqor Platform v1.0 Launch</li><li><i class="far fa-circle text-muted me-2"></i>NQR Staking Activation</li></ul></div></div></div>
+                <div class="timeline-item animated-item" data-animation="slide-in-right"><div class="timeline-icon"><i class="fas fa-chart-line"></i></div><div class="timeline-content card"><div class="card-header bg-purple text-white fw-bold">Phase 4: NQR Ecosystem Growth (Q4 2025+)</div><div class="card-body"><ul class="list-unstyled"><li><i class="far fa-circle text-muted me-2"></i>Advanced Platform Features</li><li><i class="far fa-circle text-muted me-2"></i>Developer SDK & Grant Program</li><li><i class="far fa-circle text-muted me-2"></i>NQR DAO Governance Transition</li></ul></div></div></div>
             </div>
         </div>
     </section>
 
     <!-- FAQ Section -->
     <section id="faq" class="py-5 bg-darker section-animated">
-        <div class="container fade-in-section">
+        <div class="container animated-item" data-animation="fade-in-up">
             <div class="text-center mb-5">
                 <h2 class="display-4 fw-bold highlight-text-ethereal">Your Key Questions</h2>
                 <p class="lead text-white-75 fs-5">Clarifying the Neuroqor Journey.</p>
             </div>
             <div class="accordion" id="faqAccordion">
-                <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What is NQRL and its purpose?</button></h2><div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">NQRL (Pump.fun contract: <code>98K...pump</code>) is the **exclusive pre-sale token** for Neuroqor. It allows early supporters to participate before the main NQR utility token launch. NQRL's primary function is to be swapped for NQR tokens during a one-time event.</div></div></div>
-                <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">How do I acquire NQR tokens now?</button></h2><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">The only way to secure future NQR tokens during this pre-launch phase is by purchasing NQRL tokens on <a href="https://pump.fun/98KWyyah12Mksu8hoN6scZ6TK25vzUajjbbvjm2bpump" target="_blank" class="pumpfun-link-inline">Pump.fun</a> using SOL. NQR itself is not directly for sale yet.</div></div></div>
-                <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">What is the swap rate from NQRL to NQR?</button></h2><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">The NQRL to NQR swap is designed to provide the most advantageous rate for early NQRL adopters. While not a fixed 1:1 guarantee (as it will be determined based on various factors like total NQRL supply to ensure fairness for all early supporters), our commitment is to maximize value for those who join us through NQRL. Details will be shared transparently before the Sept 2025 swap.</div></div></div>
-                <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">What if I miss the NQRL to NQR swap window?</button></h2><div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">The NQRL to NQR swap in September 2025 is a **one-time, limited-duration event**. Once the swap window closes, NQRL tokens will no longer be convertible to NQR. It's crucial to participate during the announced period. After this, NQR will be accessible via DEXs and other ecosystem methods.</div></div></div>
-                 <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">What is the future NQR token (mint: 7Ypo...) used for?</button></h2><div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">The future NQR token (mint address <code>7Ypo...JCL</code>) will be the core utility token for the Neuroqor platform, enabling access to AI/Quantum compute services, DAO governance, staking rewards, and other ecosystem features.</div></div></div>
+                <div class="accordion-item animated-item" data-animation="fade-in-up" data-delay="0.1s"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What is NQRL and its purpose?</button></h2><div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">NQRL (Pump.fun contract: <code>98K...pump</code>) is the **exclusive pre-sale token** for Neuroqor. Its sole purpose is to provide early supporters access to the future NQR utility token via a one-time swap event.</div></div></div>
+                <div class="accordion-item animated-item" data-animation="fade-in-up" data-delay="0.2s"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">How do I acquire NQR tokens now?</button></h2><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">The only way to secure future NQR tokens during this pre-launch phase is by purchasing NQRL tokens on <a href="https://pump.fun/98KWyyah12Mksu8hoN6scZ6TK25vzUajjbbvjm2bpump" target="_blank" class="pumpfun-link-inline">Pump.fun</a> using SOL. NQR itself is not directly for sale yet.</div></div></div>
+                <div class="accordion-item animated-item" data-animation="fade-in-up" data-delay="0.3s"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">What is the swap rate from NQRL to NQR?</button></h2><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">The NQRL to NQR swap is designed to provide the most advantageous rate for early NQRL adopters. While not a fixed 1:1 guarantee (as it will be determined based on various factors like total NQRL supply to ensure fairness for all early supporters), our commitment is to maximize value for those who join us through NQRL. Details will be shared transparently before the Sept 2025 swap.</div></div></div>
+                <div class="accordion-item animated-item" data-animation="fade-in-up" data-delay="0.4s"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">What if I miss the NQRL to NQR swap window?</button></h2><div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">The NQRL to NQR swap in September 2025 is a **one-time, limited-duration event**. Once the swap window closes, NQRL tokens will no longer be convertible to NQR. It's crucial to participate during the announced period. After this, NQR will be accessible via DEXs and other ecosystem methods.</div></div></div>
+                 <div class="accordion-item animated-item" data-animation="fade-in-up" data-delay="0.5s"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">What is the future NQR token (mint: 7Ypo...) used for?</button></h2><div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">The future NQR token (mint address <code>7Ypo...JCL</code>) will be the core utility token for the Neuroqor platform, enabling access to AI/Quantum compute services, DAO governance, staking rewards, and other ecosystem features.</div></div></div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="py-5 section-contact section-animated">
-        <div class="container fade-in-section text-center">
+        <div class="container animated-item" data-animation="fade-in-up" data-delay="0.2s" text-center">
             <h2 class="mb-4 display-4 fw-bold highlight-text-ethereal">Connect & Secure NQRL!</h2>
             <p class="lead mb-5 text-white-75 fs-5">Join the Movement. Follow Our Progress. Get Your NQRL.</p>
             <div class="row justify-content-center g-3">
-                <div class="col-md-6 col-lg-3 mb-3">
+                <div class="col-md-6 col-lg-3 mb-3 animated-item" data-animation="zoom-in" data-delay="0.3s">
                     <a href="https://pump.fun/98KWyyah12Mksu8hoN6scZ6TK25vzUajjbbvjm2bpump" target="_blank" class="btn btn-lg w-100 contact-btn py-3 fs-5 d-flex align-items-center justify-content-center cta-pumpfun-alt contact-button-glow">
                         <i class="fas fa-shopping-bag fa-fw me-2"></i> Buy NQRL
                     </a>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-3">
+                <div class="col-md-6 col-lg-3 mb-3 animated-item" data-animation="zoom-in" data-delay="0.4s">
                     <a href="https://t.me/+mH_VevEtfEQ5OTcx" target="_blank" rel="noopener noreferrer" class="btn btn-info btn-lg w-100 contact-btn py-3 fs-5 d-flex align-items-center justify-content-center contact-button-glow">
                         <i class="fab fa-telegram-plane fa-fw me-2"></i> Telegram
                     </a>
                 </div>
-                <!---Twitter--->
-                <!--div class="col-md-6 col-lg-3 mb-3">
-                     <a href="https://x.com/pillowgoldSOL" target="_blank" rel="noopener noreferrer" class="btn btn-light btn-lg w-100 contact-btn py-3 fs-5 d-flex align-items-center justify-content-center contact-button-glow btn-x">
+                <div class="col-md-6 col-lg-3 mb-3 animated-item" data-animation="zoom-in" data-delay="0.5s">
+                     <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-light btn-lg w-100 contact-btn py-3 fs-5 d-flex align-items-center justify-content-center contact-button-glow btn-x">
                         <i class="fab fa-xing fa-fw me-2"></i> Follow on X
                     </a>
-                </div-->
-                <div class="col-md-6 col-lg-3 mb-3">
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3 animated-item" data-animation="zoom-in" data-delay="0.6s">
                      <a href="mailto:admin@pillowgold.com" class="btn btn-secondary btn-lg w-100 contact-btn py-3 fs-5 d-flex align-items-center justify-content-center contact-button-glow">
                         <i class="fas fa-envelope fa-fw me-2"></i> Email Us
                     </a>
@@ -344,7 +342,7 @@
         </div>
     </footer>
 
-    <!-- Particle.js library (place before closing </body>) -->
+    <!-- Particle.js library -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -356,7 +354,7 @@
                 anchor.addEventListener('click', function (e) {
                     if (this.hash !== "") {
                         const navBar = document.querySelector('.navbar.fixed-top');
-                        const navBarHeight = navBar ? navBar.offsetHeight : 70;
+                        const navBarHeight = navBar ? navBar.offsetHeight : 70; // Adjust if navbar height changes
                         const element = document.querySelector(this.hash);
                         if (element) {
                             e.preventDefault();
@@ -431,89 +429,44 @@
                 });
             }
 
-            // Intersection Observer for fade-in animations
-            const animatedSections = document.querySelectorAll('.section-animated .fade-in-section');
+            // Intersection Observer for scroll animations
+            const animatedItems = document.querySelectorAll('.animated-item');
             const observerOptions = {
-                root: null, // relative to document viewport
+                root: null,
                 rootMargin: '0px',
-                threshold: 0.15 // 15% of element is visible
+                threshold: 0.1 // Lower threshold for earlier trigger
             };
 
             const observer = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        entry.target.classList.add('is-visible');
-                        observer.unobserve(entry.target); // Optional: stop observing once animated
+                        const animationType = entry.target.dataset.animation || 'fade-in-up';
+                        const animationDelay = entry.target.dataset.delay || '0s';
+                        entry.target.style.animationDelay = animationDelay;
+                        entry.target.classList.add(animationType, 'is-visible');
+                        observer.unobserve(entry.target);
                     }
                 });
             }, observerOptions);
 
-            animatedSections.forEach(section => {
-                observer.observe(section);
+            animatedItems.forEach(item => {
+                observer.observe(item);
             });
 
-            // Initialize Particles.js
-            if (document.getElementById('particles-js')) {
-                particlesJS("particles-js", {
+            // Initialize Particles.js for Hero
+            if (document.getElementById('particles-js-hero')) {
+                particlesJS("particles-js-hero", {
                     "particles": {
-                        "number": {
-                            "value": 60, // Reduced for subtlety
-                            "density": {
-                                "enable": true,
-                                "value_area": 800
-                            }
-                        },
-                        "color": {
-                            "value": "#4dabf7" // var(--nq-primary)
-                        },
-                        "shape": {
-                            "type": "circle",
-                        },
-                        "opacity": {
-                            "value": 0.3, // More subtle
-                            "random": true,
-                            "anim": {
-                                "enable": true,
-                                "speed": 0.5,
-                                "opacity_min": 0.05,
-                                "sync": false
-                            }
-                        },
-                        "size": {
-                            "value": 3,
-                            "random": true,
-                            "anim": {
-                                "enable": false,
-                            }
-                        },
-                        "line_linked": {
-                            "enable": true,
-                            "distance": 120, // Reduced distance
-                            "color": "#2d3748", // var(--nq-border-color)
-                            "opacity": 0.2, // More subtle
-                            "width": 1
-                        },
-                        "move": {
-                            "enable": true,
-                            "speed": 1, // Slower movement
-                            "direction": "none",
-                            "random": true,
-                            "straight": false,
-                            "out_mode": "out",
-                            "bounce": false,
-                        }
+                        "number": {"value": 80, "density": {"enable": true, "value_area": 800}},
+                        "color": {"value": ["#00aaff", "#00f2ea", "#ffffff"]}, // Primary, Secondary, White
+                        "shape": {"type": "circle"},
+                        "opacity": {"value": 0.4, "random": true, "anim": {"enable": true, "speed": 0.3, "opacity_min": 0.1, "sync": false}},
+                        "size": {"value": 2.5, "random": true, "anim": {"enable": true, "speed": 2, "size_min": 0.5, "sync": false}},
+                        "line_linked": {"enable": true, "distance": 100, "color": "#141a2c", "opacity": 0.3, "width": 1}, // var(--nq-dark-alt)
+                        "move": {"enable": true, "speed": 0.8, "direction": "none", "random": true, "straight": false, "out_mode": "out", "bounce": false}
                     },
-                    "interactivity": {
-                        "detect_on": "canvas",
-                        "events": {
-                            "onhover": {
-                                "enable": false, // Disabled hover interactivity for cleaner look
-                            },
-                            "onclick": {
-                                "enable": false,
-                            },
-                            "resize": true
-                        }
+                    "interactivity": {"detect_on": "canvas", "events": {"onhover": {"enable": true, "mode": "grab"}, "onclick": {"enable": false}, "resize": true},
+                        "modes": {"grab": {"distance": 100, "line_linked": {"opacity": 0.5}}}
                     },
                     "retina_detect": true
                 });
@@ -531,7 +484,6 @@
                 buttonElement.classList.remove('btn-outline-light');
                 buttonElement.classList.add('btn-success');
                 if (isSmall) buttonElement.classList.add('btn-sm');
-
 
                 setTimeout(function() {
                     buttonElement.innerHTML = originalText;
